@@ -3,10 +3,12 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import reportWebVitals from './reportWebVitals';
 import Timer from './Timer/Timer';
+import NewTimer from './Timer/TimerWithHooks';
 
 ReactDOM.render(
   <React.StrictMode>
     <Timer />
+    <NewTimer />
   </React.StrictMode>,
   document.getElementById('root')
 );

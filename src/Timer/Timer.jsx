@@ -81,6 +81,7 @@ class Timer extends React.Component  {
 
     return (
       <div>
+        <h3>With Class</h3>
         <div>{`${this.ShowTimerHH()}:${this.ShowTimerMin()}:${this.ShowTimerSec()}`}</div>
         <button onClick={this.StartBtn}>Start|Stop</button>
         <button onClick={this.WaitBtn}>Wait</button>
